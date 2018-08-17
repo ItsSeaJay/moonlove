@@ -1,4 +1,4 @@
-love.conf = function(application)
+love.conf = function(t)
   t.identity = nil
   t.appendidentity = false
   t.version = "11.0"

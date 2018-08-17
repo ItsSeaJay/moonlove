@@ -1,26 +1,23 @@
-rectangle =
-	x: 0
-	y: 0
-	width: 32
-	height: 32
+Rectangle = require "src.Rectangle"
+
+rectangle = Rectangle 0, 0, 32, 32
 
 love.load = ->
 	print "Hello, World!"
 
 love.update = (deltaTime) ->
+	gravity = 2
 	speed = 2
 
-	-- Move the rectangle to the left
+	-- Make the rectangle fall
 	rectangle.x += deltaTime * speed
 
-	if rectangle.x > love.graphics.getWidth! then rectangle.x = -rectangle.width
+	-- Wrap the rectangle around the y axis
+	if rectangle.y > love.graphics.getHeight!
+		rectangle.y = -rectangle.height
 
 love.draw = ->
-	love.graphics.rectangle "fill",
-		rectangle.x,
-		rectangle.y,
-		rectangle.width,
-		rectangle.height
+	rectangle\draw!
 
 love.keypressed = (key, scancode, isdown) ->
 	if key == "escape"
