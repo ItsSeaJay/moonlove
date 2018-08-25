@@ -1,19 +1,16 @@
-tiny = require "lib.tiny"
-player = require "src.entities.player"
-
-world = tiny\world player
-updateFilter = tiny.requireAll("update")
-drawFilter = tiny.requireAll("draw")
+concord = require "lib.concord"
+game = require "src.instances.game"
 
 love.load = ->
 	print "Hello, World!"
-	love.graphics.setDefaultFilter("nearest", "nearest")
+	love.graphics.setDefaultFilter "nearest", "nearest"
+	concord.init!
 
 love.update = (deltaTime) ->
-	world\update deltaTime
+	game\emit "update", deltaTime
 
 love.draw = ->
-	-- TODO: Draw the scene
+	game\emit "draw"
 
 love.keypressed = (key, scancode, isdown) ->
 	if key == "escape"

@@ -1,7 +1,7 @@
-player =
-	x: 0
-	y: 0
-	width: 0
-	height: 0
+entity = require "lib.concord.entity"
+position = require "src.components.position"
+player = entity!
+
+player\give position
 
 player
