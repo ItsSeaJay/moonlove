@@ -5,6 +5,7 @@ love.load = ->
 	print "Hello, World!"
 	love.graphics.setDefaultFilter "nearest", "nearest"
 	concord.init!
+	game\emit "load"
 
 love.update = (deltaTime) ->
 	game\emit "update", deltaTime
