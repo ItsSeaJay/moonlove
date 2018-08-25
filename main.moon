@@ -1,11 +1,16 @@
 tiny = require "lib.tiny"
+player = require "src.entities.player"
+
+world = tiny\world player
+updateFilter = tiny.requireAll("update")
+drawFilter = tiny.requireAll("draw")
 
 love.load = ->
 	print "Hello, World!"
 	love.graphics.setDefaultFilter("nearest", "nearest")
 
 love.update = (deltaTime) ->
-	-- TODO: Update all of the entities in the game
+	world\update deltaTime
 
 love.draw = ->
 	-- TODO: Draw the scene
