@@ -1,12 +1,12 @@
 instance = require "lib.concord.instance"
-player = require "src.entities.player"
-rectangleRenderer = require "src.systems.rectangleRenderer"
+Player = require "src.entities.Player"
+RectangleRenderer = require "src.systems.RectangleRenderer"
 game = instance!
 
 -- Entities
-game\addEntity player
+game\addEntity Player
 
 -- Systems
-game\addSystem rectangleRenderer!, "draw", "draw"
+game\addSystem RectangleRenderer!, "draw", "draw"
 
 game

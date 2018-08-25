@@ -1,16 +1,16 @@
 local concord = require("lib.concord")
-local Game = require("src.instances.Game")
+local game = require("src.instances.Game")
 love.load = function()
   print("Hello, World!")
   love.graphics.setDefaultFilter("nearest", "nearest")
   concord.init()
-  return Game:emit("load")
+  return game:emit("load")
 end
 love.update = function(deltaTime)
-  return Game:emit("update", deltaTime)
+  return game:emit("update", deltaTime)
 end
 love.draw = function()
-  return Game:emit("draw")
+  return game:emit("draw")
 end
 love.keypressed = function(key, scancode, isdown)
   if key == "escape" then
