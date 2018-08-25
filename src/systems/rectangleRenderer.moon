@@ -7,7 +7,7 @@ filter = {
 }
 RectangleRenderer = System(filter)
 
-RectangleRenderer.draw = =>
+RectangleRenderer.draw = () =>
 	for _, entity in ipairs self.pool.objects
 		-- Draw a rectangle at 
 		love.graphics.rectangle "fill",
