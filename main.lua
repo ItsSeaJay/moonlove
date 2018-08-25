@@ -1,12 +1,14 @@
 local Rectangle = require("src.Rectangle")
 local rectangle = Rectangle(0, 0, 32, 32)
 love.load = function()
-  return print("Hello, World!")
+  print("Hello, World!")
+  rectangle.x = love.graphics.getHeight() / 2
 end
 love.update = function(deltaTime)
-  local gravity = 2
-  local speed = 2
+  local gravity = 32
+  local speed = 32
   rectangle.x = rectangle.x + (deltaTime * speed)
+  rectangle.y = rectangle.y + (deltaTime * gravity)
   if rectangle.y > love.graphics.getHeight() then
     rectangle.y = -rectangle.height
   end
