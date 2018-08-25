@@ -1,5 +1,8 @@
+tiny = require "lib.tiny"
+
 love.load = ->
 	print "Hello, World!"
+	love.graphics.setDefaultFilter("nearest", "nearest")
 
 love.update = (deltaTime) ->
 	-- TODO: Update all of the entities in the game
