@@ -11,8 +11,8 @@ Player\give Rectangle,
 	love.graphics.getWidth! / 2,
 	love.graphics.getHeight! / 2,
 	32, -- Width
-	32 -- Height
+	64 -- Height
 Player\give Mover,
-	32 -- Speed
+	128 -- Speed
 
 Player
