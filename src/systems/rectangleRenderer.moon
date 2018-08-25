@@ -9,11 +9,14 @@ RectangleRenderer = System(filter)
 
 RectangleRenderer.draw = () =>
 	for _, entity in ipairs self.pool.objects
-		-- Draw a rectangle at 
+		position = entity\get Position
+		rectangle = entity\get Rectangle
+
+		-- Draw a rectangle at the center of the position
 		love.graphics.rectangle "fill",
-			entity\get(Position).x,
-			entity\get(Position).y,
-			entity\get(Rectangle).width,
-			entity\get(Rectangle).height
+			position.x - (rectangle.width / 2),
+			position.y - (rectangle.height / 2),
+			rectangle.width,
+			rectangle.height
 
 RectangleRenderer
