@@ -1,17 +1,17 @@
-system = require "lib.concord.system"
-position = require "src.components.position"
+System = require "lib.concord.system"
+Rectangle = require "src.components.Rectangle"
 filter = {
-	position
+	Rectangle
 }
-rectangleRenderer = system(filter)
+RectangleRenderer = System(filter)
 
-rectangleRenderer.draw = =>
+RectangleRenderer.draw = =>
 	for _, entity in ipairs self.pool.objects
 		-- Draw a rectangle at 
 		love.graphics.rectangle "fill",
-			entity\get(position).x,
-			entity\get(position).y,
-			32,
-			32
+			entity\get(position).top,
+			entity\get(position).left,
+			entity\get(position).width,
+			entity\get(position).height
 
-rectangleRenderer
+RectangleRenderer

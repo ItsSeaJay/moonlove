@@ -1,6 +1,6 @@
-component = require "lib.concord.component"
-position = component (entity, x, y) ->
+Component = require "lib.concord.Component"
+Position = Component (entity, x, y) ->
 	entity.x = x
 	entity.y = y
 
-position
+Position

@@ -1,7 +1,11 @@
 entity = require "lib.concord.entity"
-position = require "src.components.position"
-player = entity!
+Position = require "src.components.Position"
+Player = entity!
 
-player\give position, love.graphics.getWidth! / 2, love.graphics.getHeight! / 2
+Player\give Rectangle,
+	love.graphics.getWidth! / 2,
+	love.graphics.getHeight! / 2,
+	32,
+	32
 
-player
+Player
