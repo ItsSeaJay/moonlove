@@ -1,0 +1,2 @@
+# Ignore all lua files compiled by MoonScript in the source folder and below
+*.lua
