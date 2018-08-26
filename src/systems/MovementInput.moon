@@ -11,6 +11,7 @@ MovementInput.update = (deltaTime) =>
 	for _, entity in ipairs self.pool.objects
 		mover = entity\get Mover
 		position = entity\get Position
+		
 		-- TODO: clean this up to use a proper input system
 		up = (love.keyboard.isDown "w") or (love.keyboard.isDown "up")
 		down = (love.keyboard.isDown "s") or (love.keyboard.isDown "down")
