@@ -1,16 +1,18 @@
-instance = require "lib.concord.instance"
+Instance = require "lib.concord.instance"
 Player = require "src.entities.Player"
-Player = require "src.entities.Player"
+Moon = require "src.entities.Moon"
 RectangleRenderer = require "src.systems.RectangleRenderer"
+SpriteRenderer = require "src.systems.SpriteRenderer"
 MovementInput = require "src.systems.MovementInput"
-game = instance!
+Game = Instance!
 
 -- Entities
-game\addEntity Player
-game\addEntity Moon
+Game\addEntity Player
+Game\addEntity Moon
 
 -- Systems
-game\addSystem MovementInput!, "update", "update"
-game\addSystem RectangleRenderer!, "draw", "draw"
+Game\addSystem MovementInput!, "update", "update"
+Game\addSystem RectangleRenderer!, "draw", "draw"
+Game\addSystem SpriteRenderer!, "draw", "draw"
 
-game
+Game

@@ -5,7 +5,7 @@ filter = {
 	Position,
 	Rectangle
 }
-RectangleRenderer = System(filter)
+RectangleRenderer = System filter
 
 RectangleRenderer.draw = () =>
 	for _, entity in ipairs self.pool.objects
