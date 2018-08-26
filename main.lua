@@ -14,6 +14,9 @@ love.draw = function()
 end
 love.keypressed = function(key, scancode, isdown)
   if key == "escape" then
-    return love.event.quit()
+    love.event.quit()
+  end
+  if key == "f5" then
+    return love.load()
   end
 end

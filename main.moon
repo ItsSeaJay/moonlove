@@ -16,3 +16,6 @@ love.draw = ->
 love.keypressed = (key, scancode, isdown) ->
 	if key == "escape"
 		love.event.quit!
+
+	if key == "f5"
+		love.load!

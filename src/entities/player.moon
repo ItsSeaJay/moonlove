@@ -20,7 +20,7 @@ Player\give Rectangle,
 	32, -- Width
 	64 -- Height
 Player\give Mover,
-	256 -- Speed
+	32 -- Speed
 Player\give Input,
 	buttons
 

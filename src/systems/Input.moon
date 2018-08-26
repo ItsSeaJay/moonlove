@@ -17,14 +17,18 @@ MovementInput.update = (deltaTime) =>
 
 		-- Vertical
 		if love.keyboard.isDown input.buttons.up
-			position.y -= mover.speed * deltaTime
+			mover.velocity.y = -mover.speed
 		elseif love.keyboard.isDown input.buttons.down
-			position.y += mover.speed * deltaTime
+			mover.velocity.y = mover.speed
+		else
+			mover.velocity.y = 0
 
 		-- Horizontal
 		if love.keyboard.isDown input.buttons.left
-			position.x -= mover.speed * deltaTime
+			mover.velocity.x = -mover.speed
 		elseif love.keyboard.isDown input.buttons.right
-			position.x += mover.speed * deltaTime
+			mover.velocity.x = mover.speed
+		else
+			mover.velocity.x = 0
 
 MovementInput

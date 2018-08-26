@@ -1,7 +1,6 @@
 System = require "lib.concord.system"
 Position = require "src.components.Position"
 Mover = require "src.components.Mover"
-Mover = require "src.components.Mover"
 filter = {
 	Position,
 	Mover
@@ -13,6 +12,7 @@ Movement.update = (deltaTime) =>
 		position = entity\get Position
 		mover = entity\get Mover
 
-		position.x += mover.speed * deltaTime
+		position.x += mover.velocity.x * deltaTime
+		position.y += mover.velocity.y * deltaTime
 
 Movement
