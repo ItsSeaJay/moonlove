@@ -7,7 +7,7 @@ filter = {
 	Position,
 	Input
 }
-MovementInput = System(filter)
+MovementInput = System filter
 
 MovementInput.update = (deltaTime) =>
 	for _, entity in ipairs self.pool.objects

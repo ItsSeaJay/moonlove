@@ -5,7 +5,7 @@ filter = {
 }
 Firing = System filter
 
-Firing\update = (deltaTime) ->
+Firing.update = (deltaTime) =>
 	-- TODO: make guns fire bullets
 
 Firing
