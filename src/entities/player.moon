@@ -3,6 +3,7 @@ Position = require "src.components.Position"
 Rectangle = require "src.components.Rectangle"
 Mover = require "src.components.Mover"
 Input = require "src.components.Input"
+Bounds = require "src.components.Bounds"
 Player = Entity!
 
 buttons = 
@@ -20,8 +21,13 @@ Player\give Rectangle,
 	32, -- Width
 	64 -- Height
 Player\give Mover,
-	32 -- Speed
+	128 -- Speed
 Player\give Input,
 	buttons
+Player\give Bounds,
+	-32,
+	love.graphics.getHeight! + 32,
+	-32,
+	love.graphics.getWidth! + 32
 
 Player
