@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"Sprite",
+				"SpriteRenderer"
+			],
+			[
+				"for",
+				"fori\tfor i,v in ipairs()"
+			],
+			[
+				"is",
+				"isDown"
+			],
+			[
+				"key",
+				"keyboard"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"re",
+				"rectangleRenderer"
+			],
+			[
+				"rectan",
+				"rectangleRenderer"
+			],
+			[
+				"rect",
+				"rectangleRenderer"
+			],
+			[
 				"lowre",
 				"lowrezjam2018.zip"
 			],
@@ -26,10 +58,6 @@
 			[
 				"obje",
 				"object"
-			],
-			[
-				"is",
-				"isRepeat"
 			],
 			[
 				"set",
@@ -160,10 +188,6 @@
 				"walkBackwards"
 			],
 			[
-				"for",
-				"forp\tfor k,v in pairs()"
-			],
-			[
 				"fun",
 				"function\tfunction"
 			],
@@ -204,10 +228,6 @@
 				"CameraEntity"
 			],
 			[
-				"re",
-				"require"
-			],
-			[
 				"Came",
 				"CameraSystem"
 			],
@@ -234,10 +254,6 @@
 			[
 				"camer",
 				"cameraCallback"
-			],
-			[
-				"po",
-				"position.x"
 			],
 			[
 				"con",
@@ -342,10 +358,6 @@
 			[
 				"pos",
 				"posessable"
-			],
-			[
-				"key",
-				"keypressed"
 			],
 			[
 				"tile",
@@ -502,27 +514,81 @@
 			[
 				"base",
 				"base_url"
-			],
-			[
-				"str",
-				"strtotime"
-			],
-			[
-				"entry",
-				"entry_model"
-			],
-			[
-				"ent",
-				"entry_model"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "conf.moon",
+			"settings":
+			{
+				"buffer_size": 3299,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/MEGA/BUSINESS/DevelopmentPlan.txt",
+			"settings":
+			{
+				"buffer_size": 3569,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
-	"build_system": "",
+	"build_system": "Packages/Moonscripty/Moonscript.sublime-build",
 	"build_system_choices":
 	[
+		[
+			[
+				[
+					"Packages/Moonscripty/Moonscript.sublime-build",
+					""
+				],
+				[
+					"Packages/Moonscripty/Moonscript.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Moonscripty/Moonscript.sublime-build",
+					"moonc: show output"
+				],
+				[
+					"Packages/Moonscripty/Moonscript.sublime-build",
+					"love: run project"
+				],
+				[
+					"Packages/Moonscripty/Moonscript.sublime-build",
+					"love: run file"
+				],
+				[
+					"Packages/Moonscripty/Moonscript.sublime-build",
+					"moonc: compile project"
+				],
+				[
+					"Packages/Moonscripty/Moonscript.sublime-build",
+					"moonc: run lint on file"
+				],
+				[
+					"Packages/Moonscripty/Moonscript.sublime-build",
+					"moonc: run lint on project"
+				],
+				[
+					"Packages/Moonscripty/Moonscript.sublime-build",
+					"ldoc: File"
+				],
+				[
+					"Packages/Moonscripty/Moonscript.sublime-build",
+					"ldoc: Project"
+				]
+			],
+			[
+				"Packages/Moonscripty/Moonscript.sublime-build",
+				""
+			]
+		]
 	],
 	"build_varint": "",
 	"command_palette":
@@ -531,6 +597,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"moon",
+				"Set Syntax: MoonScript"
+			],
+			[
+				"moo",
+				"Set Syntax: MoonScript"
+			],
 			[
 				"add",
 				"Project: Add Folder"
@@ -788,6 +862,56 @@
 	],
 	"file_history":
 	[
+		"/D/MEGA/PROJECTS/moonlove/build.bat",
+		"/D/MEGA/BUSINESS/WorkJournal.md",
+		"/D/MEGA/PROJECTS/moonlove/src/systems/Input.moon",
+		"/D/MEGA/PROJECTS/moonlove/src/components/Bounds.moon",
+		"/D/MEGA/PROJECTS/moonlove/src/systems/ScreenWrap.moon",
+		"/D/MEGA/PROJECTS/moonlove/src/entities/Player.moon",
+		"/D/MEGA/PROJECTS/moonlove/src/components/Gun.moon",
+		"/D/MEGA/PROJECTS/moonlove/src/systems/Movement.moon",
+		"/D/MEGA/PROJECTS/moonlove/src/entities/Bullet.moon",
+		"/D/MEGA/PROJECTS/moonlove/src/components/Bounds.lua",
+		"/D/MEGA/PROJECTS/moonlove/src/instances/Game.moon",
+		"/D/MEGA/PROJECTS/moonlove/src/components/Input.moon",
+		"/D/MEGA/PROJECTS/moonlove/src/systems/Input.lua",
+		"/D/MEGA/PROJECTS/moonlove/src/components/Mover.moon",
+		"/D/MEGA/PROJECTS/moonlove/src/Vector.moon",
+		"/D/MEGA/PROJECTS/moonlove/src/systems/Firing.moon",
+		"/D/MEGA/PROJECTS/moonlove/src/systems/ScreenWrap.lua",
+		"/D/MEGA/PROJECTS/moonlove/main.moon",
+		"/D/MEGA/PROJECTS/moonlove/debug.bat",
+		"/D/MEGA/PROJECTS/moonlove/main.lua",
+		"/D/MEGA/PROJECTS/moonlove/src/components/Input.lua",
+		"/D/MEGA/PROJECTS/moonlove/src/systems/MovementInput.lua",
+		"/D/MEGA/PROJECTS/moonlove/src/components/Sprite.moon",
+		"/D/MEGA/PROJECTS/moonlove/src/systems/SpriteRenderer.moon",
+		"/D/MEGA/PROJECTS/moonlove/src/systems/RectangleRenderer.moon",
+		"/D/MEGA/PROJECTS/moonlove/src/entities/Moon.moon",
+		"/D/MEGA/PROJECTS/moonlove/src/components/Sprite.lua",
+		"/D/MEGA/PROJECTS/moonlove/conf.lua",
+		"/D/MEGA/PROJECTS/moonlove/src/systems/MovementInput.moon",
+		"/D/MEGA/PROJECTS/moonlove/src/systems/OrthogonalMovement.lua",
+		"/D/MEGA/PROJECTS/moonlove/src/instances/Game.lua",
+		"/D/MEGA/PROJECTS/moonlove/src/components/Position.moon",
+		"/D/MEGA/PROJECTS/moonlove/src/components/Mover.lua",
+		"/D/MEGA/PROJECTS/moonlove/src/entities/Player.lua",
+		"/D/MEGA/PROJECTS/moonlove/src/instances/game.moon",
+		"/D/MEGA/PROJECTS/moonlove/src/components/Rectangle.moon",
+		"/D/MEGA/PROJECTS/moonlove/src/entities/player.lua",
+		"/D/MEGA/PROJECTS/moonlove/src/components/Position.lua",
+		"/D/MEGA/PROJECTS/moonlove/src/components/scale.moon",
+		"/D/MEGA/PROJECTS/moonlove/src/instances/game.lua",
+		"/D/MEGA/PROJECTS/moonlove/src/systems/draw.lua",
+		"/D/MEGA/PROJECTS/moonlove/src/systems/draw.moon",
+		"/D/MEGA/PROJECTS/moonlove/src/entities/player.moon",
+		"/D/MEGA/PROJECTS/moonlove/src/components/position.moon",
+		"/D/MEGA/PROJECTS/moonlove/src/filters/drawFilter.moon",
+		"/D/MEGA/PROJECTS/moonlove/src/components/position.lua",
+		"/D/MEGA/PROJECTS/moonlove/lib/tiny-ecs/init.lua",
+		"/D/MEGA/PROJECTS/moonlove/lib/tiny-ecs/tiny.lua",
+		"/D/MEGA/PROJECTS/moonlove/src/.gitignore",
+		"/D/MEGA/PROJECTS/moonlove/.gitignore",
 		"/C/Users/user/AppData/Local/Temp/7zO814F1A59/license.txt",
 		"/D/MEGA/PROJECTS/lowrezjam2018/src/maps/kitchen.lua",
 		"/D/MEGA/PROJECTS/lowrezjam2018/src/Map.lua",
@@ -865,57 +989,7 @@
 		"/D/MEGA/PROJECTS/lily-tin/src/Game.cpp",
 		"/D/MEGA/PROJECTS/lily-tin/include/Paddle.h",
 		"/D/MEGA/PROJECTS/lily-tin/include/Ball.h",
-		"/D/MEGA/PROJECTS/lily-tin/include/Game.h",
-		"/D/MEGA/PROJECTS/lily-tin/include/GameObject.h",
-		"/D/Directories/Programs/Famitracker 0.4.6/readme.txt",
-		"/D/MEGA/PROJECTS/gdl-july-jam-2018/src/Furniture.lua",
-		"/D/MEGA/PROJECTS/gdl-july-jam-2018/src/Player.lua",
-		"/D/MEGA/PROJECTS/gdl-july-jam-2018/src/TextBubble.lua",
-		"/D/MEGA/PROJECTS/gdl-july-jam-2018/src/main.lua",
-		"/D/MEGA/PROJECTS/gdl-july-jam-2018/IOU.md",
-		"/D/itch.io/apps/Boarexe/options.ini",
-		"/D/MEGA/PROJECTS/gdl-july-jam-2018/bin/OscarTheGhost/credits.txt",
-		"/C/Users/user/AppData/Local/Temp/7zO8157003B/credits.txt",
-		"/D/MEGA/PROJECTS/gdl-july-jam-2018/credits.txt",
-		"/D/MEGA/PROJECTS/gdl-july-jam-2018/src/credits.txt",
-		"/D/MEGA/PROJECTS/gdl-july-jam-2018/src/mousejustpressed.lua",
-		"/D/MEGA/PROJECTS/gdl-july-jam-2018/src/cam.lua",
-		"/D/MEGA/PROJECTS/gdl-july-jam-2018/src/keyjustpressed.lua",
-		"/D/MEGA/PROJECTS/gdl-july-jam-2018/src/Interactable.lua",
-		"/D/MEGA/PROJECTS/gdl-july-jam-2018/src/conf.lua",
-		"/D/MEGA/PROJECTS/gdl-july-jam-2018/src/justpressed.lua",
-		"/D/MEGA/PROJECTS/gdl-july-jam-2018/src/Posessable.lua",
-		"/D/MEGA/PROJECTS/gdl-july-jam-2018/debug.bat",
-		"/D/MEGA/PROJECTS/gdl-july-jam-2018/src/gamera.lua",
-		"/D/MEGA/PROJECTS/ready-to-rumble/src/Main.cpp",
-		"/D/MEGA/PROJECTS/ready-to-rumble/CMakeLists.txt",
-		"/C/Program Files (x86)/SDL2/cmake/SDL2Targets.cmake",
-		"/C/Program Files (x86)/SDL2/cmake/SDL2Config.cmake",
-		"/D/MEGA/PROJECTS/SDL2-2.0.8/docs/README-cmake.md",
-		"/D/MEGA/PROJECTS/SDL2-2.0.8/INSTALL.txt",
-		"/C/Program Files/SDL2-2.0.8/SDL2Config.cmake",
-		"/D/MEGA/PROJECTS/Test/game/script.rpy",
-		"/D/MEGA/PROJECTS/Test/dialogue.txt",
-		"/D/MEGA/PROJECTS/Test/game/options.rpy",
-		"/D/MEGA/PROJECTS/Test/game/screens.rpy",
-		"/D/MEGA/PROJECTS/Test/game/gui.rpy",
-		"/D/MEGA/PROJECTS/lily-tin/CMakeLists.txt",
-		"/D/MEGA/PROJECTS/sea-jay-blog/_drafts/how-to-find-sfml-2.5.0-with-cmake.md",
-		"/D/renpy-6.99.14.3-sdk/doc/index.html",
-		"/D/MEGA/PROJECTS/sea-jay-blog/_drafts/random-indie-game.txt",
-		"/D/MEGA/PROJECTS/sea-jay-blog/_drafts/announcing-project-lily-tin.md",
-		"/D/XAMPP/htdocs/firefolio/application/config/database.php",
-		"/D/MEGA/PROJECTS/lily-tin/debug.bat",
-		"/D/MEGA/PROJECTS/sea-jay-blog/_config.yml",
-		"/D/MEGA/PROJECTS/sea-jay-blog/index.md",
-		"/D/MEGA/PROJECTS/sea-jay-blog/index.html",
-		"/D/MEGA/PROJECTS/sea-jay-blog/_posts/2018-07-04-hello-world.md",
-		"/D/MEGA/PROJECTS/myblog/index.html",
-		"/D/MEGA/PROJECTS/my-awesome-site/about.md",
-		"/D/MEGA/PROJECTS/lily-tin/make.bat",
-		"/D/MEGA/PROJECTS/lily-tin/build.bat",
-		"/D/MEGA/PROJECTS/lily-tin/run.bat",
-		"/D/MEGA/PROJECTS/lily-tin/bin/CMakeCache.txt"
+		"/D/MEGA/PROJECTS/lily-tin/include/Game.h"
 	],
 	"find":
 	{
@@ -926,6 +1000,7 @@
 		"height": 178.0,
 		"where_history":
 		[
+			"src/*"
 		]
 	},
 	"find_state":
@@ -933,6 +1008,44 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Sprite",
+			"objects",
+			"Input",
+			"Mover",
+			"Position",
+			"top",
+			"y",
+			"x",
+			"Movement",
+			"ProjectileMovement",
+			"input.buttons.",
+			"Rectangle",
+			"up",
+			"right",
+			"up",
+			"Player",
+			"Position",
+			"Sprite",
+			"game",
+			"Player",
+			"RectangleRenderer",
+			"Position",
+			"entity\\get(Rectangle)",
+			"entity\\get(Position)",
+			"rectangle",
+			"OrthogonalMovement",
+			"x",
+			"Rectangle",
+			",\n",
+			"position",
+			"game",
+			"position",
+			"component",
+			"player",
+			"Position",
+			"position",
+			"rectangleRenderer",
+			"update"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -940,6 +1053,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"MovementInput"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -950,8 +1064,66 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "conf.moon",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3299,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2078,
+								2078
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Moonscripty/Syntaxes/MoonScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/D/MEGA/BUSINESS/DevelopmentPlan.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3569,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3304,
+								3266
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 918.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -986,6 +1158,10 @@
 		]
 	},
 	"menu_visible": false,
+	"output.exec":
+	{
+		"height": 127.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -1003,6 +1179,90 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"con",
+				"conf.moon"
+			],
+			[
+				"bound",
+				"src\\components\\Bounds.moon"
+			],
+			[
+				"boun",
+				"src\\components\\Bounds.lua"
+			],
+			[
+				"input.",
+				"src\\systems\\Input.moon"
+			],
+			[
+				"input",
+				"src\\components\\Input.moon"
+			],
+			[
+				"input.moo",
+				"src\\components\\Input.moon"
+			],
+			[
+				"scr",
+				"src\\systems\\ScreenWrap.lua"
+			],
+			[
+				"game",
+				"src\\instances\\Game.moon"
+			],
+			[
+				"",
+				"src\\Vector.moon"
+			],
+			[
+				"mover",
+				"src\\components\\Mover.moon"
+			],
+			[
+				"pla",
+				"src\\entities\\Player.moon"
+			],
+			[
+				"main",
+				"main.moon"
+			],
+			[
+				"mai",
+				"main.lua"
+			],
+			[
+				"inpu",
+				"src\\components\\Input.lua"
+			],
+			[
+				"gam",
+				"src\\instances\\Game.moon"
+			],
+			[
+				"pl",
+				"src\\entities\\Player.moon"
+			],
+			[
+				"movement",
+				"src\\systems\\MovementInput.lua"
+			],
+			[
+				"spri",
+				"src\\components\\Sprite.moon"
+			],
+			[
+				"rectan",
+				"src\\systems\\RectangleRenderer.moon"
+			],
+			[
+				"playe",
+				"src\\entities\\player.moon"
+			],
+			[
+				"ga",
+				"src\\instances\\game.lua"
+			],
 			[
 				"kitch",
 				"lowrezjam2018\\src\\maps\\kitchen.lua"
@@ -1030,10 +1290,6 @@
 			[
 				"player",
 				"lowrezjam2018\\src\\Player.lua"
-			],
-			[
-				"game",
-				"lowrezjam2018\\src\\GameObject.lua"
 			],
 			[
 				"map",
@@ -1084,14 +1340,6 @@
 				"src\\Raptor.lua"
 			],
 			[
-				"gam",
-				"src\\GameObject.lua"
-			],
-			[
-				"pla",
-				"src\\Player.lua"
-			],
-			[
 				"un",
 				"src\\maps\\untitled.lua"
 			],
@@ -1112,10 +1360,6 @@
 				"src\\LightingSystem.lua"
 			],
 			[
-				"con",
-				"conf.lua"
-			],
-			[
 				"an",
 				"lib\\anim8.lua"
 			],
@@ -1124,16 +1368,8 @@
 				"src\\Light.lua"
 			],
 			[
-				"mai",
-				"lib\\maid64.lua"
-			],
-			[
 				"anim",
 				"lib\\anim8.lua"
-			],
-			[
-				"pl",
-				"src\\Player.lua"
 			],
 			[
 				"gamer",
@@ -1164,20 +1400,8 @@
 				"src\\systems\\Input.lua"
 			],
 			[
-				"input",
-				"src\\systems\\Input.lua"
-			],
-			[
-				"ga",
-				"src\\instances\\Game.lua"
-			],
-			[
 				"mo",
 				"src\\components\\MovementController.lua"
-			],
-			[
-				"spri",
-				"src\\components\\Sprite.lua"
 			],
 			[
 				"ini",
@@ -1242,10 +1466,6 @@
 			[
 				"ba",
 				"include\\Ball.h"
-			],
-			[
-				"main",
-				"src\\Main.cpp"
 			],
 			[
 				"padd",
@@ -1470,46 +1690,6 @@
 			[
 				"profile.",
 				"application\\controllers\\backend\\Profile.php"
-			],
-			[
-				"firefolio.css",
-				"public\\css\\firefolio.css"
-			],
-			[
-				"boile",
-				"public\\css\\boilerplate.css"
-			],
-			[
-				"credent",
-				"application\\views\\backend\\security\\update\\credentials.html"
-			],
-			[
-				"projec",
-				"application\\models\\Project_model.php"
-			],
-			[
-				"_mode",
-				"application\\models\\Profile_model.php"
-			],
-			[
-				"project",
-				"application\\models\\Project_model.php"
-			],
-			[
-				"head",
-				"application\\views\\frontend\\portfolio\\header.html"
-			],
-			[
-				"portfolio.html",
-				"application\\views\\frontend\\portfolio\\frontpage.html"
-			],
-			[
-				"index.html",
-				"application\\index.html"
-			],
-			[
-				"helper.te",
-				"utilities\\templates\\application\\helper.template.php"
 			]
 		],
 		"width": 0.0
@@ -1544,7 +1724,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 239.0,
+	"side_bar_width": 257.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

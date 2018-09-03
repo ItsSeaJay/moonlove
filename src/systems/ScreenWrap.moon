@@ -8,7 +8,7 @@ filter = {
 ScreenWrap = System filter
 
 ScreenWrap.update = (deltaTime) =>
-	for _, entity in ipairs(self.pool.entities)
+	for _, entity in ipairs self.pool.objects
 		position = entity\get Position
 		bounds = entity\get Bounds
 
