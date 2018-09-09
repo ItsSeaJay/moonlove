@@ -9,11 +9,12 @@ Bullet = Entity!
 speed = 512
 
 Bullet\give Position,
-	32, -- X
-	64 -- Y
+	0, -- X
+	0 -- Y
 Bullet\give Mover,
 	speed,
-	Vector speed, 0
+	Vector speed,
+	0
 Bullet\give Sprite,
 	"res/Lasers/laserBlue08.png"
 Bullet\give Bounds
