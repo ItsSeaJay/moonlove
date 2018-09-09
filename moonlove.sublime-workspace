@@ -529,10 +529,10 @@
 			}
 		},
 		{
-			"file": "/D/MEGA/BUSINESS/DevelopmentPlan.txt",
+			"file": "/D/MEGA/BUSINESS/Repos/management-essay-2018-08-29/essay.txt",
 			"settings":
 			{
-				"buffer_size": 3569,
+				"buffer_size": 3983,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -862,8 +862,11 @@
 	],
 	"file_history":
 	[
-		"/D/MEGA/PROJECTS/moonlove/build.bat",
+		"/D/MEGA/BUSINESS/DevelopmentPlan.txt",
 		"/D/MEGA/BUSINESS/WorkJournal.md",
+		"/D/netbeans/etc/netbeans.conf",
+		"/D/MEGA/Rubbish/2018-08-30/management-essay.txt",
+		"/D/MEGA/PROJECTS/moonlove/build.bat",
 		"/D/MEGA/PROJECTS/moonlove/src/systems/Input.moon",
 		"/D/MEGA/PROJECTS/moonlove/src/components/Bounds.moon",
 		"/D/MEGA/PROJECTS/moonlove/src/systems/ScreenWrap.moon",
@@ -986,10 +989,7 @@
 		"/D/MEGA/PROJECTS/lily-tin/src/Paddle.cpp",
 		"/D/MEGA/PROJECTS/lily-tin/src/GameObject.cpp",
 		"/D/MEGA/PROJECTS/lily-tin/src/Main.cpp",
-		"/D/MEGA/PROJECTS/lily-tin/src/Game.cpp",
-		"/D/MEGA/PROJECTS/lily-tin/include/Paddle.h",
-		"/D/MEGA/PROJECTS/lily-tin/include/Ball.h",
-		"/D/MEGA/PROJECTS/lily-tin/include/Game.h"
+		"/D/MEGA/PROJECTS/lily-tin/src/Game.cpp"
 	],
 	"find":
 	{
@@ -1098,19 +1098,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/D/MEGA/BUSINESS/DevelopmentPlan.txt",
+					"file": "/D/MEGA/BUSINESS/Repos/management-essay-2018-08-29/essay.txt",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3569,
+						"buffer_size": 3983,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3304,
-								3266
+								3983,
+								3983
 							]
 						],
 						"settings":
@@ -1118,7 +1118,7 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 918.0,
+						"translation.y": 324.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1723,7 +1723,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 257.0,
 	"status_bar_visible": true,
 	"template_settings":
