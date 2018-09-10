@@ -11,12 +11,12 @@ speed = 512
 Bullet\give Position,
 	0, -- X
 	0 -- Y
+Bullet\give Sprite,
+	"res/Lasers/laserBlue08.png"
 Bullet\give Mover,
 	speed,
 	Vector speed,
 	0
-Bullet\give Sprite,
-	"res/Lasers/laserBlue08.png"
 Bullet\give Bounds
 
 Bullet
