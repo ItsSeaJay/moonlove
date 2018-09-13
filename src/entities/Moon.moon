@@ -5,12 +5,14 @@ Gun = require "src.components.Gun"
 Bullet = require "src.entities.Bullet"
 Moon = Entity!
 
+cooldown = 3
+
 Moon\give Position,
 	love.graphics.getWidth! / 2,
 	love.graphics.getHeight! / 2
 Moon\give Sprite,
 	"res/moon.png"
 Moon\give Gun,
-	1 -- Cooldown
+	cooldown
 
 Moon

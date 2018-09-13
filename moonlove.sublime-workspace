@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"add",
+				"addEntity"
+			],
+			[
+				"delt",
+				"deltaTime"
+			],
+			[
 				"Sprite",
 				"SpriteRenderer"
 			],
@@ -284,10 +292,6 @@
 				"concord"
 			],
 			[
-				"delt",
-				"deltaY"
-			],
-			[
 				"int",
 				"intersects"
 			],
@@ -510,30 +514,41 @@
 			[
 				"format",
 				"format_entries"
-			],
-			[
-				"base",
-				"base_url"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "conf.moon",
+			"file": "src/systems/Firing.moon",
 			"settings":
 			{
-				"buffer_size": 3299,
+				"buffer_size": 1109,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/D/MEGA/BUSINESS/Repos/management-essay-2018-08-29/essay.txt",
+			"file": "src/systems/Firing.lua",
 			"settings":
 			{
-				"buffer_size": 3983,
-				"encoding": "UTF-8",
+				"buffer_size": 1032,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/entities/Bullet.moon",
+			"settings":
+			{
+				"buffer_size": 425,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/systems/Movement.moon",
+			"settings":
+			{
+				"buffer_size": 415,
 				"line_ending": "Windows"
 			}
 		}
@@ -597,6 +612,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
 			[
 				"moon",
 				"Set Syntax: MoonScript"
@@ -754,10 +777,6 @@
 				"Project: Add Folder"
 			],
 			[
-				"php",
-				"Set Syntax: PHP"
-			],
-			[
 				"ht",
 				"Set Syntax: HTML"
 			],
@@ -858,10 +877,26 @@
 	},
 	"expanded_folders":
 	[
-		"/D/MEGA/PROJECTS/moonlove"
+		"/D/MEGA/PROJECTS/moonlove",
+		"/D/MEGA/PROJECTS/moonlove/src",
+		"/D/MEGA/PROJECTS/moonlove/src/components",
+		"/D/MEGA/PROJECTS/moonlove/src/entities",
+		"/D/MEGA/PROJECTS/moonlove/src/instances",
+		"/D/MEGA/PROJECTS/moonlove/src/systems"
 	],
 	"file_history":
 	[
+		"/D/MEGA/PROJECTS/moonlove/conf.moon",
+		"/D/MEGA/PROJECTS/moonlove/main.moon",
+		"/D/MEGA/PROJECTS/moonlove/src/entities/Moon.moon",
+		"/D/MEGA/PROJECTS/moonlove/src/components/Mover.moon",
+		"/D/MEGA/PROJECTS/moonlove/src/instances/Game.moon",
+		"/D/MEGA/PROJECTS/moonlove/src/entities/Bullet.moon",
+		"/D/MEGA/PROJECTS/moonlove/src/systems/Movement.moon",
+		"/D/MEGA/PROJECTS/moonlove/src/components/Gun.moon",
+		"/C/Users/user/AppData/Local/Temp/7zO8CBE3275/main.lua",
+		"/D/MEGA/PROJECTS/moonlove/src/systems/Firing.lua",
+		"/D/MEGA/BUSINESS/Repos/management-essay-2018-08-29/essay.txt",
 		"/D/MEGA/BUSINESS/DevelopmentPlan.txt",
 		"/D/MEGA/BUSINESS/WorkJournal.md",
 		"/D/netbeans/etc/netbeans.conf",
@@ -871,18 +906,12 @@
 		"/D/MEGA/PROJECTS/moonlove/src/components/Bounds.moon",
 		"/D/MEGA/PROJECTS/moonlove/src/systems/ScreenWrap.moon",
 		"/D/MEGA/PROJECTS/moonlove/src/entities/Player.moon",
-		"/D/MEGA/PROJECTS/moonlove/src/components/Gun.moon",
-		"/D/MEGA/PROJECTS/moonlove/src/systems/Movement.moon",
-		"/D/MEGA/PROJECTS/moonlove/src/entities/Bullet.moon",
 		"/D/MEGA/PROJECTS/moonlove/src/components/Bounds.lua",
-		"/D/MEGA/PROJECTS/moonlove/src/instances/Game.moon",
 		"/D/MEGA/PROJECTS/moonlove/src/components/Input.moon",
 		"/D/MEGA/PROJECTS/moonlove/src/systems/Input.lua",
-		"/D/MEGA/PROJECTS/moonlove/src/components/Mover.moon",
 		"/D/MEGA/PROJECTS/moonlove/src/Vector.moon",
 		"/D/MEGA/PROJECTS/moonlove/src/systems/Firing.moon",
 		"/D/MEGA/PROJECTS/moonlove/src/systems/ScreenWrap.lua",
-		"/D/MEGA/PROJECTS/moonlove/main.moon",
 		"/D/MEGA/PROJECTS/moonlove/debug.bat",
 		"/D/MEGA/PROJECTS/moonlove/main.lua",
 		"/D/MEGA/PROJECTS/moonlove/src/components/Input.lua",
@@ -890,7 +919,6 @@
 		"/D/MEGA/PROJECTS/moonlove/src/components/Sprite.moon",
 		"/D/MEGA/PROJECTS/moonlove/src/systems/SpriteRenderer.moon",
 		"/D/MEGA/PROJECTS/moonlove/src/systems/RectangleRenderer.moon",
-		"/D/MEGA/PROJECTS/moonlove/src/entities/Moon.moon",
 		"/D/MEGA/PROJECTS/moonlove/src/components/Sprite.lua",
 		"/D/MEGA/PROJECTS/moonlove/conf.lua",
 		"/D/MEGA/PROJECTS/moonlove/src/systems/MovementInput.moon",
@@ -985,11 +1013,7 @@
 		"/C/Users/user/Desktop/Minecraft Server/eula.txt",
 		"/C/Users/user/Desktop/Minecraft Server/run.bat",
 		"/C/Users/user/Desktop/Minecraft Server/banned-ips.json",
-		"/D/MEGA/PROJECTS/lily-tin/src/Ball.cpp",
-		"/D/MEGA/PROJECTS/lily-tin/src/Paddle.cpp",
-		"/D/MEGA/PROJECTS/lily-tin/src/GameObject.cpp",
-		"/D/MEGA/PROJECTS/lily-tin/src/Main.cpp",
-		"/D/MEGA/PROJECTS/lily-tin/src/Game.cpp"
+		"/D/MEGA/PROJECTS/lily-tin/src/Ball.cpp"
 	],
 	"find":
 	{
@@ -1008,6 +1032,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"projectile",
+			"Bullet",
+			"Mover",
+			"Bounds",
+			"entity",
+			"Position",
+			"Gun",
+			"game",
+			"Game",
+			"game",
+			"concord",
+			"Position",
 			"Sprite",
 			"objects",
 			"Input",
@@ -1064,24 +1100,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "conf.moon",
+					"file": "src/systems/Firing.moon",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3299,
+						"buffer_size": 1109,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2078,
-								2078
+								872,
+								872
 							]
 						],
 						"settings":
@@ -1093,32 +1129,90 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/D/MEGA/BUSINESS/Repos/management-essay-2018-08-29/essay.txt",
+					"file": "src/systems/Firing.lua",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3983,
+						"buffer_size": 1032,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3983,
-								3983
+								968,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 324.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/entities/Bullet.moon",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 425,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								425,
+								425
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Moonscripty/Syntaxes/MoonScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/systems/Movement.moon",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 415,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								405,
+								405
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Moonscripty/Syntaxes/MoonScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1180,6 +1274,26 @@
 		"selected_items":
 		[
 			[
+				"bulle",
+				"src\\entities\\Bullet.moon"
+			],
+			[
+				"move",
+				"src\\components\\Mover.moon"
+			],
+			[
+				"movement",
+				"src\\systems\\Movement.moon"
+			],
+			[
+				"main",
+				"main.moon"
+			],
+			[
+				"gun",
+				"src\\components\\Gun.moon"
+			],
+			[
 				"con",
 				"conf.moon"
 			],
@@ -1224,10 +1338,6 @@
 				"src\\entities\\Player.moon"
 			],
 			[
-				"main",
-				"main.moon"
-			],
-			[
 				"mai",
 				"main.lua"
 			],
@@ -1242,10 +1352,6 @@
 			[
 				"pl",
 				"src\\entities\\Player.moon"
-			],
-			[
-				"movement",
-				"src\\systems\\MovementInput.lua"
 			],
 			[
 				"spri",
@@ -1678,18 +1784,6 @@
 			[
 				"inde",
 				"index.html"
-			],
-			[
-				"creden",
-				"application\\helpers\\credentials_helper.php"
-			],
-			[
-				"hyper",
-				"application\\controllers\\backend\\Hyperlinks.php"
-			],
-			[
-				"profile.",
-				"application\\controllers\\backend\\Profile.php"
 			]
 		],
 		"width": 0.0
@@ -1702,7 +1796,7 @@
 		[
 			[
 				"",
-				"D:\\MEGA\\PROJECTS\\lowrezjam2018\\lowrez2018.sublime-workspace"
+				"D:\\MEGA\\PROJECTS\\lily-tin\\lily-tin.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -1723,7 +1817,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 257.0,
 	"status_bar_visible": true,
 	"template_settings":

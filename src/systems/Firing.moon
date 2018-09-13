@@ -1,10 +1,14 @@
-Concord = require "lib.concord"
+-- Concord
+Entity = require "lib.concord.Entity"
 System = require "lib.concord.system"
+-- Components
 Gun = require "src.components.Gun"
 Position = require "src.components.Position"
+Rotation = require "src.components.Rotation"
 Sprite = require "src.components.Sprite"
 Mover = require "src.components.Mover"
 Bounds = require "src.components.Bounds"
+-- Classes
 Vector = require "src.Vector"
 filter = {
 	Gun
@@ -20,22 +24,22 @@ Firing.update = (deltaTime) =>
 		gun.heat -= deltaTime
 
 		if gun.heat < 0
-			print "Shoot!"
-
 			-- Create a new projectile with a given speed
-			projectile = Concord.entity!
-			speed = 512
+			projectile = Entity!
+			speed = 256
+			angle = love.math.random 0,
+				math.pi * 2 -- The angle can be any point on a circle in radians
 
 			-- Give that projectile some components
 			projectile\give Position,
 				position.x,
 				position.y
+			projectile\give Rotation,
+				angle
 			projectile\give Sprite,
 				"res/Lasers/laserBlue08.png"
 			projectile\give Mover,
-				speed,
-				Vector speed,
-				0
+				speed
 			projectile\give Bounds
 
 			-- Add that projectile entity to the current instance
