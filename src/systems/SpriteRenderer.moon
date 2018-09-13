@@ -1,5 +1,6 @@
 System = require "lib.concord.system"
 Position = require "src.components.Position"
+Rotation = require "src.components.Rotation"
 Sprite = require "src.components.Sprite"
 filter = {
 	Position,
@@ -15,7 +16,7 @@ SpriteRenderer.draw = () =>
 		love.graphics.draw sprite.source, -- Image source
 			position.x,
 			position.y,
-			0, -- Angle
+			if entity\has(Rotation) then entity\get(Rotation).angle else 0, -- Angle
 			1, -- Horizontal scale
 			1, -- Vertical scale
 			(sprite.source\getWidth! / 2), -- Default the origin to the center
