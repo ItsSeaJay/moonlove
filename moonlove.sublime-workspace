@@ -519,15 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "src/systems/SpriteRenderer.moon",
-			"settings":
-			{
-				"buffer_size": 695,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "Packages/Moonscripty/Moonscript.sublime-build",
 	"build_system_choices":
@@ -588,6 +579,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
 			[
 				"moon",
 				"Set Syntax: MoonScript"
@@ -793,10 +788,6 @@
 				"View: Toggle Open Files in Side Bar"
 			],
 			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
 				"package controle:",
 				"Package Control: List Packages"
 			],
@@ -862,6 +853,10 @@
 	],
 	"file_history":
 	[
+		"/D/MEGA/PROJECTS/moonlove/src/systems/Firing.moon",
+		"/D/MEGA/PROJECTS/moonlove/src/systems/Collision.moon",
+		"/D/MEGA/PROJECTS/moonlove/src/components/BoundingBox.moon",
+		"/D/MEGA/PROJECTS/moonlove/src/systems/SpriteRenderer.moon",
 		"/D/MEGA/PROJECTS/wren/Makefile",
 		"/D/MEGA/PROJECTS/moonlove/src/systems/SpriteRenderer.lua",
 		"/D/MEGA/PROJECTS/moonlove/src/components/Mover.moon",
@@ -869,7 +864,6 @@
 		"/D/MEGA/PROJECTS/moonlove/src/entities/Player.moon",
 		"/D/MEGA/PROJECTS/moonlove/src/entities/Moon.moon",
 		"/D/MEGA/PROJECTS/moonlove/src/systems/Firing.lua",
-		"/D/MEGA/PROJECTS/moonlove/src/systems/Firing.moon",
 		"/D/MEGA/PROJECTS/moonlove/src/systems/RotationalMovement.moon",
 		"/D/MEGA/PROJECTS/moonlove/src/systems/Movement.moon",
 		"/D/MEGA/PROJECTS/moonlove/src/components/Rotation.moon",
@@ -898,7 +892,6 @@
 		"/D/MEGA/PROJECTS/moonlove/src/components/Input.lua",
 		"/D/MEGA/PROJECTS/moonlove/src/systems/MovementInput.lua",
 		"/D/MEGA/PROJECTS/moonlove/src/components/Sprite.moon",
-		"/D/MEGA/PROJECTS/moonlove/src/systems/SpriteRenderer.moon",
 		"/D/MEGA/PROJECTS/moonlove/src/systems/RectangleRenderer.moon",
 		"/D/MEGA/PROJECTS/moonlove/src/components/Sprite.lua",
 		"/D/MEGA/PROJECTS/moonlove/conf.lua",
@@ -987,9 +980,7 @@
 		"/D/MEGA/PROJECTS/lowrezjam2018/README.md",
 		"/D/Directories/Programs/re4hd/re4hdproject-install-log.txt",
 		"/C/Users/user/Downloads/Program Downloads/maid64-LOWREZJAM2018/maid64.lua",
-		"/C/Users/user/Desktop/Minecraft Server/server.properties",
-		"/D/MEGA/BACKUP/Minecraft Server/2018.07.19/ops.json",
-		"/C/Users/user/Desktop/Minecraft Server/whitelist.json"
+		"/C/Users/user/Desktop/Minecraft Server/server.properties"
 	],
 	"find":
 	{
@@ -1008,6 +999,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			" ",
 			"Movement",
 			"projectile",
 			"Bullet",
@@ -1077,38 +1069,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "src/systems/SpriteRenderer.moon",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 695,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								232,
-								232
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Moonscripty/Syntaxes/MoonScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1709,7 +1671,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 257.0,
+	"side_bar_width": 263.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
