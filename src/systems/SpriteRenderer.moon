@@ -22,5 +22,4 @@ SpriteRenderer.draw = () =>
 			(sprite.source\getWidth! / 2), -- Default the origin to the center
 			(sprite.source\getHeight! / 2)
 
-
 SpriteRenderer
